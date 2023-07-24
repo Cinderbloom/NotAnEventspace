@@ -1,0 +1,33 @@
+html{
+    background-image: url(https://beltanefiresociety.files.wordpress.com/2018/03/2012-06-23t08-11-39-000_ellen_duffy.jpg?w=775&h=517);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.349);
+    background-size: cover;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+header{
+    width: min-content;
+    height: min-content;
+    display: inline;
+}
+h1{
+    text-transform:uppercase;
+    font-weight:900;
+    font-size: 80px;
+    margin:0px;
+}
+main{
+    margin: 250px;
+}
+h2 , #a{
+    font-size: 30px;
+    width: 100%;
+    
+
+}
