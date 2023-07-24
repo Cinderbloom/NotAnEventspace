@@ -72,14 +72,21 @@ let reasons = [
     "Due to budget constraints ",
     "Because of a measurment error ",
     "Thanks to a Key moment conflict ",
-    "because of a lost cloak ",
+    "Because of a lost cloak ",
     "Due to an angry letter from the Residents' Association ",
     "Due to a shortage of GOs ",
     "Due to a shortage of volunteers ",
     "Due to a conflict with the Firearms Act (1968) ",
     "To make way for a new fire installation ",
-    "in accordance with the prop[hecy",
-    "Because we forgot",
+    "In accordance with the prophecy ",
+    "Because we forgot ",
+    "In response to a misunderstanding ",
+    "Due to entierly forseen circumstances ",
+    "Because of a bibilical number of seagulls ",
+    "Thanks to brexit ",
+    "In response to comuunity outcry ",
+    "Because of a confused red ",
+    "Because of a clear lack of communication ",
 ]
 let groups = [
     "this year's Court ",
@@ -99,7 +106,12 @@ let groups = [
     "a suprise 4th drumming group ",
     "the stewards ",
     "tech ",
-    "the chair and event coordinator",
+    "the chair and event coordinator ",
+    "the local wizards ",
+    "Lothian bus company ",
+    "the hired security company ",
+    "the folks at the ticket office ",
+    "the local fire brigade "
 ]
 let joins = [
     "are planning to ",
@@ -110,12 +122,16 @@ let joins = [
     "might ",
     "will ",
     "have decided to ",
+    "cannot ",
+    "refuse to ",
+    "are unable to ",
+
 ]
 let concepts = [
     "be represented by a small assymetric rock.",
     "be represented by the rain inevitably falling on the hill.",
     "be represented by one guy waving a candle and yelling.",
-    "replace their stage peice with Morris Dancing.",
+    "replace their stage piece with Morris Dancing.",
     "be digging a large hole.",
     "be represented through interpretive dance.",
     "be dressed as highland cattle.",
@@ -134,6 +150,10 @@ let concepts = [
     "form a joint group with water point.",
     "combine earth air water and fire points into a new may queen.",
     "will be moving the Acropolis back to Air Point.",
+    "make tech ANOTHER round of tea.",
+    "summon the giant tortoise of creation and destruction",
+    "start their own festival somewhere in niddrie.",
+    "skip everything and go straight to the after party.",
 ]
 //randomiser
 fact = beltaneGothic[Math.floor(Math.random()*beltaneGothic.length)];
@@ -153,4 +173,3 @@ document.getElementById("event").innerHTML = fact
 
 document.getElementById("button").onclick = randomise;
 //console.log(excuse(reasons,groups,joins,concepts))
-
