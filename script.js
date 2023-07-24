@@ -76,7 +76,10 @@ let reasons = [
     "Due to an angry letter from the Residents' Association ",
     "Due to a shortage of GOs ",
     "Due to a shortage of volunteers ",
-    "Due to a conflict with the Firearms Act (1968) "
+    "Due to a conflict with the Firearms Act (1968) ",
+    "To make way for a new fire installation ",
+    "in accordance with the prop[hecy",
+    "Because we forgot",
 ]
 let groups = [
     "this year's Court ",
@@ -96,9 +99,10 @@ let groups = [
     "a suprise 4th drumming group ",
     "the stewards ",
     "tech ",
+    "the chair and event coordinator",
 ]
 let joins = [
-    "is planning to ",
+    "are planning to ",
     "have demanded to ",
     "want to ",
     "will not ",
@@ -128,7 +132,8 @@ let concepts = [
     "have their exit cue six seconds after their intro cue.",
     "be covered in mud.",
     "form a joint group with water point.",
-    "combine earth air water and fire points into a new may queen."
+    "combine earth air water and fire points into a new may queen.",
+    "will be moving the Acropolis back to Air Point.",
 ]
 //randomiser
 fact = beltaneGothic[Math.floor(Math.random()*beltaneGothic.length)];
