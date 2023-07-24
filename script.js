@@ -124,7 +124,8 @@ let concepts = [
 //
 
 //randomiser
-
+fact = beltaneGothic[Math.floor(Math.random()*beltaneGothic.length)];
+document.getElementById("event").innerHTML = fact
 
 function excuse(reason,group,join,concept){
     reason = reasons[Math.floor(Math.random()*reasons.length)]
