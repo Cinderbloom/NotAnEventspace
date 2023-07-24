@@ -120,12 +120,8 @@ let concepts = [
     "form a joint group with water point.",
     "combine earth air water and fire points into a new may queen."
 ]
-
-//
-
 //randomiser
 fact = beltaneGothic[Math.floor(Math.random()*beltaneGothic.length)];
-document.getElementById("event").innerHTML = fact
 
 function excuse(reason,group,join,concept){
     reason = reasons[Math.floor(Math.random()*reasons.length)]
@@ -138,7 +134,8 @@ function excuse(reason,group,join,concept){
 function randomise(){
     document.getElementById("a").innerHTML = excuse(reasons,groups,joins,concepts)
 }
-
+document.getElementById("event").innerHTML = fact
 
 document.getElementById("button").onclick = randomise;
 //console.log(excuse(reasons,groups,joins,concepts))
+
