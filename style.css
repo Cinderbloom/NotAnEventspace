@@ -5,19 +5,19 @@ html{
     background-color: black;
     color: rgb(226, 222, 203);
     text-shadow:5px 4px 5px rgb(34, 1, 1);
+    text-align: center;
 }
+
 h1{
     text-transform:uppercase;
     font-weight:900;
     font-size: 80px;
     margin:0px;
-    text-align: center;
     text-decoration: underline;
 }
 main{
     margin: 200px;
     height: 100%;
-    text-align: center;
 }
 h2 , #a{
     font-size: 40px;
