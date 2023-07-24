@@ -54,6 +54,16 @@ let beltaneGothic = [
     "Don't. Burn. The trees.",
     "We can't have a festival without *Recent group concept* ",
     "And that's the May Queen who represents youth and purity, and that's the Green Man and his devilish consorts who she's trying to fight off...",
+    "an accurate depiction of my beltane journey",
+    "There is no surface on your body not covered in body paint. It has always been covered in body paint.",
+    "I wholeheartedly support blindfolding the residents association.",
+    "BFS Radio etiquette: Always be clear which monument you're referring to.",
+    "it's both as big as a house and the size of a backpack, sometimes both in the same conversation",
+    "However cold the crowd gets, never light the bonfire before the May Queen arrives.",
+    "Don't forget to flame-check your Buckfast.",
+    "The road will be re-opened at 11pm, whether you have finished or not.",
+    "Have you seen my cloak? It's black with a red lining.",
+    "have you filled in your risk assessment?",
 ]
 let reasons = [
     "At the councils request ",
