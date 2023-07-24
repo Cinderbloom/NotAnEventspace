@@ -4,6 +4,7 @@ html{
     background-size: cover;
     background-color: black;
     color: rgb(226, 222, 203);
+    text-shadow:5px 4px 5px rgb(34, 1, 1);
 }
 h1{
     text-transform:uppercase;
