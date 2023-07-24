@@ -3,12 +3,8 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    color: rgb(226, 222, 203);
 }
-body{
-    background-color: rgba(255, 255, 255, 0.349);
-    background-size: cover;
-}
-
 h1{
     text-transform:uppercase;
     font-weight:900;
@@ -26,4 +22,7 @@ h2 , #a{
     font-size: 40px;
     width: 100%;
 }
-
+footer {
+    position: absolute;
+    bottom: 0;
+}
